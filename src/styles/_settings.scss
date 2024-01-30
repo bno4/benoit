@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  min-height: 150vh;
+  background-image: url(./img/polar-bg.jpg);
+}
+h3 {
+  color: #dadbde;
+  user-select: none;
+  margin-left: 50px;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  color: #dadbde;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  color: white;
+}
