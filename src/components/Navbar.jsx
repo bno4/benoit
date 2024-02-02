@@ -1,16 +1,15 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIgloo } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   let lastScrollPosition = 0;
   const [open, setOpen] = useState(false);
+  // const links = document.querySelectorAll("nav li");
 
   // Apparition/Disparition de la nav au scroll
   const controlNavbar = () => {
     if (window.scrollY > lastScrollPosition) {
-      console.log(window.scrollY);
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -32,26 +31,34 @@ const Navbar = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // useEffect(() => {
+  //   links.forEach((link) => {
+  //     link.addEventListener("click", () => {
+  //       toggleClass();
+  //     });
+  //   });
+  // }, []);
+
   return (
     <div>
-      <nav className={navbar ? "navbar show" : "navbar"}>
-        <h3>
-          <FontAwesomeIcon icon={faIgloo} />
-        </h3>
+      <nav className={navbar ? "navbar hidden" : "navbar"}>
+        <li onClick={toggleClass}>
+          <NavLink to="/">Benoît Duchemin</NavLink>
+        </li>
         <ul className={open ? "ul active" : "ul"}>
-          <li>
-            <a href="#">accueil</a>
+          <li onClick={toggleClass}>
+            <NavLink to="/projects">projets</NavLink>
           </li>
-          <li>
-            <a href="#">Projets</a>
+
+          <li onClick={toggleClass}>
+            <NavLink to="/about">à propos</NavLink>
           </li>
-          <li>
-            <a href="#">A propos</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
+
+          <li onClick={toggleClass}>
+            <NavLink to="/contact">contact </NavLink>
           </li>
         </ul>
+
         <div
           onClick={toggleClass}
           className={open ? "icons active" : "icons"}

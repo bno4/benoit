@@ -1,17 +1,41 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "lato";
+  src: url(../assets/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "exo";
+  src: url(../assets/Exo/Exo-VariableFont_wght.ttf);
+}
 * {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "lato";
 }
 
 body {
-  min-height: 150vh;
-  background-image: url(./img/polar-bg.jpg);
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+h1 {
+  color: #242424;
+  font-family: "exo";
+  color: #242424;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+h2 {
+  color: #242424;
+  font-family: "exo";
+  color: #242424;
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 h3 {
-  color: #dadbde;
+  color: #242424;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -23,27 +47,28 @@ li {
   list-style: none;
 }
 
-a,
-a:visited {
-  color: #dadbde;
-  font-weight: 400;
+a {
+  color: #242424;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
-a:hover {
-  color: white;
+p {
+  font-family: "lato";
+  color: #646464;
+  font-size: 1rem;
 }
 
 /**** NAVBAR ****/
 .navbar {
-  background: rgba(58, 85, 106, 0.6941176471);
+  background: white;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   position: fixed;
-  width: 100%;
+  width: 90%;
   top: 0px;
-  height: 41px;
+  left: 5%;
+  right: 5%;
+  height: 61px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   opacity: 1;
@@ -53,13 +78,12 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
   font-size: 1rem;
+  padding-top: 20px;
 }
 
-.navbar.show {
+.navbar.hidden {
   top: -61px;
-  opacity: 0;
 }
 
 nav ul {
@@ -70,12 +94,66 @@ nav ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 90%;
+  z-index: 10;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 300;
+  position: relative;
+  padding: 3px 0px 7px;
+}
+li a::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #242424;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+li a::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #242424;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+li a:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+li a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+li a:hover {
+  font-weight: 700;
 }
 
 .icons {
   cursor: pointer;
   display: none;
-  color: #dadbde;
+  color: #242424;
 }
 
 @media (max-width: 730px) {
@@ -86,18 +164,23 @@ nav ul {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: 50px;
+    -webkit-transition: 250ms ease;
+    transition: 250ms ease;
+    font-size: 2rem;
   }
   .icons:before {
     content: "☰";
-    font-size: 2rem;
   }
   .icons.active:before {
     content: "✕";
+    font-size: 1.7rem;
   }
   nav {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  .navbar.hidden {
+    top: 0px;
   }
   nav ul {
     position: fixed;
@@ -107,26 +190,101 @@ nav ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    background: rgba(58, 85, 106, 0.6941176471);
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background-color: white;
+    gap: 20px;
     width: 100%;
+    height: 100vh;
     text-align: center;
+    padding-top: 50px;
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
   }
   nav li a {
-    display: block;
-    padding: 10px 0;
+    display: inline-block;
+    padding: 3px 0 7px;
     -webkit-transition: 0.25s;
     transition: 0.25s;
-  }
-  nav li:hover a {
-    display: block;
-    background: rgba(58, 85, 106, 0.6941176471);
-    color: white;
   }
   ul.active {
     left: 0;
   }
+}
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3333333333);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3333333333);
+  -webkit-transition: 250ms ease-in;
+  transition: 250ms ease-in;
+  max-width: 450px;
+  height: 700px;
+  border-radius: 7px;
+}
+.card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin: 0 auto;
+  height: 35%;
+  min-height: 320px;
+  border-radius: 7px 7px 0 0;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.page-ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin-top: 100px;
+}
+.page-ctn__info {
+  width: 80%;
+  line-height: 25px;
+}
+
+.projects-ctn {
+  margin-top: 150px;
+  padding: 0 5%;
+}
+.projects-ctn h2 {
+  margin-bottom: 30px;
+}
+
+.cards-ctn {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */

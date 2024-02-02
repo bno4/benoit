@@ -1,27 +1,60 @@
+@font-face {
+  font-family: "lato";
+  src: url(../assets/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "exo";
+  src: url(../assets/Exo/Exo-VariableFont_wght.ttf);
+}
+
+$main-font: "lato";
+$title-font: "exo";
+$back-color: #ffffff;
+$front-color: #646464;
+$front-ligth-color: #838383;
+$title-color: #242424;
+
 * {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $main-font;
 }
 body {
-  min-height: 150vh;
-  background-image: url(./img/polar-bg.jpg);
+  min-height: 100vh;
+  background: $back-color;
+}
+
+h1 {
+  color: #242424;
+  font-family: $title-font;
+  color: $title-color;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+h2 {
+  color: #242424;
+  font-family: $title-font;
+  color: $title-color;
+  font-size: 4rem;
+  font-weight: 300;
 }
 h3 {
-  color: #dadbde;
+  color: $title-color;
   user-select: none;
   margin-left: 50px;
 }
 li {
   list-style: none;
 }
-a,
-a:visited {
-  color: #dadbde;
-  font-weight: 400;
+
+a {
+  color: #242424;
   text-decoration: none;
-  text-transform: uppercase;
 }
-a:hover {
-  color: white;
+
+p {
+  font-family: $main-font;
+  color: $front-color;
+  font-size: 1rem;
 }
