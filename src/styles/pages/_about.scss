@@ -3,10 +3,75 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 80vh;
   margin-top: 100px;
-  &__info {
-    width: 80%;
+}
+
+.about-ctn {
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  &__head {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
     line-height: 25px;
+    @media screen and (max-width: 750px) {
+      grid-template-columns: 50% 50%;
+    }
+
+    &__img {
+      background-image: url("../../../public/assets/img/photo-profil_NB_crop.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 300px;
+      width: 160px;
+      border-radius: 100px;
+      border: 4px solid black;
+      @media screen and (max-width: 750px) {
+        height: 230px;
+        width: 120px;
+      }
+    }
+    &__txt {
+      margin-left: 0px;
+      @media screen and (max-width: 750px) {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  &__story {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 50px;
+    @media screen and (max-width: 750px) {
+      grid-template-columns: 0% 100%;
+    }
+    &__left {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 10px;
+      span {
+        background: black;
+        padding: 3px 9px;
+        color: white;
+        text-align: right;
+        border-radius: 7px;
+      }
+    }
+
+    &__right {
+      font-family: "manrope";
+      line-height: 25px;
+      color: $front-light-color;
+    }
   }
 }

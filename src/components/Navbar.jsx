@@ -42,9 +42,9 @@ const Navbar = () => {
   return (
     <div>
       <nav className={navbar ? "navbar hidden" : "navbar"}>
-        <li onClick={toggleClass}>
+        <h4>
           <NavLink to="/">Benoît Duchemin</NavLink>
-        </li>
+        </h4>
         <ul className={open ? "ul active" : "ul"}>
           <li onClick={toggleClass}>
             <NavLink to="/projects">projets</NavLink>

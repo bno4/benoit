@@ -2,11 +2,11 @@
 const Project = ({ project }) => {
   return (
     <div className="card">
+      <p className="date">{project.date}</p>
       <img src={project.img} alt={project.title} />
-      <div className="text-container">
-        <h4>{project.title}</h4>
+      <div className="text-ctn">
+        <h3>{project.title}</h3>
         <div className="infos-site">
-          <p>{project.date}</p>
           <ul className="languages">
             {project.languages &&
               project.languages.map((item) => {
@@ -15,7 +15,6 @@ const Project = ({ project }) => {
           </ul>
           <p>{project.infos}</p>
           <div className="extern-links">
-            {" "}
             <div
               className={project.link.length > 1 ? "button-container" : "off"}
             >

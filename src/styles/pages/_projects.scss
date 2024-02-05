@@ -1,5 +1,6 @@
 .projects-ctn {
   margin-top: 150px;
+  margin-bottom: 50px;
   padding: 0 5%;
   h2 {
     margin-bottom: 30px;
@@ -8,7 +9,7 @@
 
 .cards-ctn {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 30px;
   justify-content: center;
   align-items: center;

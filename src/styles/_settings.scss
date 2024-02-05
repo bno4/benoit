@@ -7,11 +7,17 @@
   src: url(../assets/Exo/Exo-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "manrope";
+  src: url(../assets/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
 $main-font: "lato";
 $title-font: "exo";
+$small-title-font: "manrope";
 $back-color: #ffffff;
 $front-color: #646464;
-$front-ligth-color: #838383;
+$front-light-color: #838383;
 $title-color: #242424;
 
 * {
@@ -42,7 +48,7 @@ h2 {
 h3 {
   color: $title-color;
   user-select: none;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 li {
   list-style: none;
