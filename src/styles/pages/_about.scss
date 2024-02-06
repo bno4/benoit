@@ -14,15 +14,15 @@
   min-height: 80vh;
   margin-left: 50px;
   margin-right: 50px;
+  @media screen and (max-width: 750px) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 
   &__head {
-    display: grid;
-    grid-template-columns: 25% 75%;
+    display: flex;
     align-items: center;
     line-height: 25px;
-    @media screen and (max-width: 750px) {
-      grid-template-columns: 50% 50%;
-    }
 
     &__img {
       background-image: url("../../../public/assets/img/photo-profil_NB_crop.png");
@@ -32,17 +32,25 @@
       height: 300px;
       width: 160px;
       border-radius: 100px;
-      border: 4px solid black;
+      border: 1px solid black;
+      margin-right: 50px;
       @media screen and (max-width: 750px) {
         height: 230px;
-        width: 120px;
+        width: 130px;
+        margin-right: 20px;
       }
     }
     &__txt {
-      margin-left: 0px;
+      h2 {
+        font-family: "exo", sans-serif;
+        line-height: 100px;
+        font-size: 6rem;
+        font-weight: 600;
+      }
       @media screen and (max-width: 750px) {
         h2 {
-          font-size: 2rem;
+          font-size: 2.5rem;
+          line-height: 50px;
         }
       }
     }
@@ -50,7 +58,7 @@
 
   &__story {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 35% 65%;
     margin-top: 50px;
     @media screen and (max-width: 750px) {
       grid-template-columns: 0% 100%;
@@ -69,8 +77,9 @@
     }
 
     &__right {
-      font-family: "manrope";
-      line-height: 25px;
+      font-family: "lato";
+      line-height: 30px;
+      font-size: 16px;
       color: $front-light-color;
     }
   }

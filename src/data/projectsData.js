@@ -67,14 +67,14 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: "Mountain",
+    title: "Montain",
     date: "Oct. 2023",
     languages: ["Sass", "Html"],
     infos:
       "Intégration d'une maquette avec Sass, travail sur la navbar, et le responsive design desktop/mobile ",
     img: "./assets/img/mountain_home.webp",
-    link: "https://bno4.github.io/mountain/",
-    git: "https://github.com/bno4/mountain",
+    link: "https://bno4.github.io/montain/",
+    git: "https://github.com/bno4/montain",
   },
   {
     id: 8,

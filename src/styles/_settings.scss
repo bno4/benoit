@@ -26,7 +26,11 @@ $title-color: #242424;
   font-family: $main-font;
 }
 body {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 90vh;
   background: $back-color;
 }
 

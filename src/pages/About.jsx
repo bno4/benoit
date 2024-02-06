@@ -8,15 +8,12 @@ const About = () => {
         <div className="about-ctn__head">
           <div className="about-ctn__head__img"></div>
           <div className="about-ctn__head__txt">
-            <h2>À PROPOS</h2>
+            <h2>À</h2>
+            <h2>PROPOS</h2>
           </div>
         </div>
         <div className="about-ctn__story">
-          <div className="about-ctn__story__left">
-            <p>
-              <span>story</span>
-            </p>
-          </div>
+          <div className="about-ctn__story__left"></div>
           <div className="about-ctn__story__right">
             Après quinze années très enrichissantes passées dans le secteur
             culturel, en qualité de chargé de diffusion, communication puis
