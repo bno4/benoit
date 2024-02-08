@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
 const Project = ({ project }) => {
   return (
     <div className="card">
       <p className="date">{project.date}</p>
-      <img src={project.img} alt={project.title} />
+      <Link to={`/projectpage/${project.id}`}>
+        <img src={project.img} alt={project.title} />
+      </Link>
       <div className="text-ctn">
         <h3>{project.title}</h3>
         <div className="infos-site">

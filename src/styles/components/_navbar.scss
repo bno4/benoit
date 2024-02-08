@@ -102,6 +102,7 @@ li {
 
   .navbar {
     background-color: white;
+    z-index: 200;
     h4 {
       margin-left: 30px;
     }
@@ -110,7 +111,7 @@ li {
     top: 0px;
   }
   nav ul {
-    position: absolute;
+    position: fixed;
     left: -100%;
     top: 61px;
     flex-direction: column;
@@ -123,6 +124,7 @@ li {
     padding-top: 50px;
     transition: all 0.25s ease-in-out;
     border: 0;
+    // z-index: 1;
   }
 
   nav li a {

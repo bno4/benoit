@@ -4,6 +4,7 @@ import Projets from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/projects" element={<Projets />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projectpage/:id" element={<ProjectPage />} />
         </Routes>
         <Footer />
       </HashRouter>

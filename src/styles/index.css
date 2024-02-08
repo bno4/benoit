@@ -198,6 +198,7 @@ li a:hover {
   }
   .navbar {
     background-color: white;
+    z-index: 200;
   }
   .navbar h4 {
     margin-left: 30px;
@@ -206,7 +207,7 @@ li a:hover {
     top: 0px;
   }
   nav ul {
-    position: absolute;
+    position: fixed;
     left: -100%;
     top: 61px;
     -webkit-box-orient: vertical;
@@ -349,9 +350,7 @@ li a:hover {
 }
 
 .button-git {
-  background: grey;
   text-align: right;
-  border-radius: 50%;
 }
 .button-git .fa-github {
   border-radius: 50%;
@@ -359,6 +358,7 @@ li a:hover {
   color: #242424;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  padding-left: 10px;
 }
 .button-git .fa-github:hover {
   -webkit-transform: scale(1.2);
@@ -398,6 +398,7 @@ li a:hover {
   min-height: 80vh;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 750px) {
   .about-ctn {
@@ -494,6 +495,71 @@ li a:hover {
           align-items: center;
   justify-items: center;
   margin: 0 auto;
+}
+
+.project-ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  width: 100%;
+}
+
+.project-ctn-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.project-ctn-header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 90%;
+  height: 60vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 0.1px solid #646464;
+}
+.project-ctn-header h2 {
+  position: absolute;
+  bottom: 0%;
+  width: 400px;
+  font-weight: bolder;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+}
+@media screen and (max-width: 730px) {
+  .project-ctn-header h2 {
+    width: 200px;
+    font-size: 2rem;
+  }
+}
+
+.project-ctn-txt {
+  margin: 100px 30px 0px;
 }
 
 .footer {

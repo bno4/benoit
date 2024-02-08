@@ -86,15 +86,16 @@
 }
 
 .button-git {
-  background: grey;
   text-align: right;
-  border-radius: 50%;
+  // border-radius: 50%;
 
   .fa-github {
     border-radius: 50%;
     font-size: 2rem;
     color: $title-color;
     transition: all 0.3s ease-in-out;
+    padding-left: 10px;
+
     &:hover {
       transform: scale(1.2);
     }

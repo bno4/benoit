@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    id: 1,
+    id: "1",
     title: "Kasa",
     date: "Juin 2023",
     languages: ["React", "Sass"],
@@ -11,7 +11,7 @@ export const projectsData = [
     git: "https://github.com/bno4/kasa",
   },
   {
-    id: 2,
+    id: "2",
     title: "Kanap",
     date: "Mar. 2023",
     languages: ["JavaScript"],
@@ -22,7 +22,7 @@ export const projectsData = [
     git: "https://github.com/bno4/kasa",
   },
   {
-    id: 3,
+    id: "3",
     title: "OhMyFood",
     date: "Fév. 2023",
     languages: ["Sass"],
@@ -33,7 +33,7 @@ export const projectsData = [
     git: "https://github.com/bno4/projet3",
   },
   {
-    id: 4,
+    id: "4",
     title: "Piiquantes",
     date: "Avr. 2023",
     languages: ["Node", "MongoDB", "Express"],
@@ -44,7 +44,7 @@ export const projectsData = [
     git: "https://github.com/bno4/piiquante",
   },
   {
-    id: 5,
+    id: "5",
     title: "La Panthère",
     date: "Fév. 2023",
     languages: ["SEO", "CSS", "HTML"],
@@ -55,7 +55,7 @@ export const projectsData = [
     git: "https://github.com/bno4/la-panthere",
   },
   {
-    id: 6,
+    id: "6",
     title: "CineMap",
     date: "Nov. 2023",
     languages: ["React", "Sass"],
@@ -66,7 +66,7 @@ export const projectsData = [
     git: "https://github.com/bno4/movies",
   },
   {
-    id: 7,
+    id: "7",
     title: "Montain",
     date: "Oct. 2023",
     languages: ["Sass", "Html"],
@@ -77,7 +77,7 @@ export const projectsData = [
     git: "https://github.com/bno4/montain",
   },
   {
-    id: 8,
+    id: "8",
     title: "Resto",
     date: "Sept. 2023",
     languages: ["Sass", "Html"],
