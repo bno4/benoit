@@ -24,7 +24,7 @@ const ProjectPage = () => {
           <h2>{site.title}</h2>
         </div>
         <div className="project-ctn-txt">
-          <div className="infos-site">
+          <div className="project-infos-site">
             <ul className="languages">
               {site.languages &&
                 site.languages.map((item) => {
@@ -60,6 +60,10 @@ const ProjectPage = () => {
                   </span>
                 </a>
               </div>
+            </div>
+            <div className="responsive">
+              <img src={site.img_phone} alt="" className="phone" />
+              <img src={site.img_mac} alt="" className="mac" />
             </div>
           </div>
         </div>

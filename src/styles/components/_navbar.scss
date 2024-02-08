@@ -15,8 +15,8 @@
   padding-top: 20px;
   h4 {
     margin-left: 50px;
-    font-family: "manrope", sans-serif;
     letter-spacing: 1.1px;
+    font-weight: 600;
   }
 }
 .navbar.hidden {
@@ -29,7 +29,7 @@ nav ul {
   // width: 90%;
   z-index: 10;
   margin-right: 50px;
-  border-left: 1px solid $front-light-color;
+  // border-left: 1px solid $front-light-color;
 }
 li {
   display: inline-block;

@@ -12,7 +12,7 @@ const Projets = () => {
         <h2>Projets web</h2>
         <ul className="cards-ctn">
           {projectsData === null ? (
-            <h3>Oups ! No results...</h3>
+            <h3>Oups ! Pas de résultats...</h3>
           ) : (
             projectsData.map((project) => {
               return <Project key={project.id} project={project} />;
