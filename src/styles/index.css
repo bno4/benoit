@@ -614,7 +614,7 @@ input.button:hover {
   line-height: 25px;
 }
 .about-ctn__head__img {
-  background-image: url("../../../public/assets/img/photo-profil_NB_crop.png");
+  background-image: url("../assets/img/photo-profil_NB_crop.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
