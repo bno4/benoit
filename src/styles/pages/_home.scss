@@ -5,6 +5,7 @@
   align-items: start;
   min-height: 90vh;
   margin: 0 50px;
+
   @media screen and (max-width: 730px) {
     margin: 0 30px;
   }
@@ -18,13 +19,19 @@
   h1 {
     font-size: 6rem;
     font-weight: 500;
-    @media screen and (max-width: 730px) {
+    @media screen and (max-width: 990px) {
       font-size: 3rem;
+    }
+    @media screen and (max-width: 730px) {
+      font-size: 2.8rem;
     }
   }
   h2 {
     font-size: 6rem;
     font-weight: 500;
+    @media screen and (max-width: 990px) {
+      font-size: 3rem;
+    }
     @media screen and (max-width: 730px) {
       font-size: 2rem;
     }

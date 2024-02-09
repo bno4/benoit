@@ -409,14 +409,24 @@ input.button:hover {
   font-size: 6rem;
   font-weight: 500;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 990px) {
   .presentation h1 {
     font-size: 3rem;
+  }
+}
+@media screen and (max-width: 730px) {
+  .presentation h1 {
+    font-size: 2.8rem;
   }
 }
 .presentation h2 {
   font-size: 6rem;
   font-weight: 500;
+}
+@media screen and (max-width: 990px) {
+  .presentation h2 {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 730px) {
   .presentation h2 {
