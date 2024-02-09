@@ -42,20 +42,48 @@ const Navbar = () => {
   return (
     <div>
       <nav className={navbar ? "navbar hidden" : "navbar"}>
-        <h4>
-          <NavLink to="/">Benoît Duchemin</NavLink>
-        </h4>
+        <li>
+          <NavLink
+            to="/"
+            onClick={() => {
+              window.scroll(0, 0);
+            }}
+          >
+            Benoît Duchemin
+          </NavLink>
+        </li>
         <ul className={open ? "ul active" : "ul"}>
           <li onClick={toggleClass}>
-            <NavLink to="/projects">projets</NavLink>
+            <NavLink
+              to="/projects"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
+              projets
+            </NavLink>
           </li>
 
           <li onClick={toggleClass}>
-            <NavLink to="/about">à propos</NavLink>
+            <NavLink
+              to="/about"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
+              à propos
+            </NavLink>
           </li>
 
           <li onClick={toggleClass}>
-            <NavLink to="/contact">contact </NavLink>
+            <NavLink
+              to="/contact"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
+              contact{" "}
+            </NavLink>
           </li>
         </ul>
 

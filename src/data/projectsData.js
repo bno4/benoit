@@ -27,14 +27,14 @@ export const projectsData = [
     img_phone: "./assets/img/kanap_mobile_resultat.webp",
     img_mac: "./assets/img/kanap_mac_resultat.webp",
     link: "",
-    git: "https://github.com/bno4/kasa",
+    git: "https://github.com/bno4/kanap",
   },
   {
     id: "3",
     title: "OhMyFood",
     date: "Fév. 2023",
     languages: ["Sass"],
-    infos_short: "Site de restaurant pensé 'mobile first'. Sas pour le style.",
+    infos_short: "Site de restaurant pensé 'mobile first'. Sass pour le style.",
     infos:
       "Site de restaurant 'mobile first', Création de l'html et du style avec Sass. Maquette desktop et mobile © OpenClassrooms",
     img: "./assets/img/ohmyfood_home.webp",
@@ -80,7 +80,7 @@ export const projectsData = [
     infos_short:
       "Fetch de l'API gratuite de films TMDB. Mini site de recherche et de classement de films.",
     infos:
-      "Fetch de l'API gratuite de films TMDB. Mini site de recherche de films et possibilité de les ajouter aux favoris ou de les supprimer",
+      'Fetch de l\'API gratuite de films TMDB. Mini site de recherche de films, possibilité de classer les films par top et flop, et de les ajouter à une page "favoris" ou de les supprimer.',
     img: "./assets/img/cinemap_home.webp",
     img_phone: "./assets/img/movies_mobile_resultat.webp",
     img_mac: "./assets/img/movies_mac_resultat.webp",
@@ -89,7 +89,7 @@ export const projectsData = [
   },
   {
     id: "7",
-    title: "Montain",
+    title: "Mountain",
     date: "Oct. 2023",
     languages: ["Sass", "Html"],
     infos_short: "Intégration d'une maquette de site touristique avec Sass",

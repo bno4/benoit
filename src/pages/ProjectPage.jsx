@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
 import { projectsData } from "../data/projectsData";
 import Navbar from "../components/Navbar";
+import { motion, easeInOut } from "framer-motion";
 
 const ProjectPage = () => {
   const { id } = useParams();
-  console.log(id);
+
   const site = projectsData.find((project) => project.id === id);
-  console.log(site);
 
   if (site === undefined) {
     return (
@@ -15,12 +15,19 @@ const ProjectPage = () => {
       </div>
     );
   }
+
   return (
     <div>
       <Navbar />
       <div className="project-ctn">
         <div className="project-ctn-header">
-          <img src={site.img} alt="" />
+          <motion.img
+            src={site.img}
+            alt={site.title}
+            animate={{ y: 0, opacity: 1 }}
+            initial={{ y: -30, opacity: 0.6 }}
+            transition={{ ease: easeInOut, duration: 0.5 }}
+          />
           <h2>{site.title}</h2>
         </div>
         <div className="project-ctn-txt">
@@ -62,8 +69,16 @@ const ProjectPage = () => {
               </div>
             </div>
             <div className="responsive">
-              <img src={site.img_phone} alt="" className="phone" />
-              <img src={site.img_mac} alt="" className="mac" />
+              <img
+                src={site.img_phone}
+                alt="Photo version phone"
+                className="phone"
+              />
+              <img
+                src={site.img_mac}
+                alt="Photo version desktop"
+                className="mac"
+              />
             </div>
           </div>
         </div>

@@ -1,0 +1,32 @@
+.home-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  min-height: 90vh;
+  margin: 0 50px;
+  @media screen and (max-width: 730px) {
+    margin: 0 30px;
+  }
+}
+
+.presentation {
+  p {
+    font-family: "exo", sans-serif;
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    @media screen and (max-width: 730px) {
+      font-size: 3rem;
+    }
+  }
+  h2 {
+    font-size: 6rem;
+    font-weight: 500;
+    @media screen and (max-width: 730px) {
+      font-size: 2rem;
+    }
+  }
+}

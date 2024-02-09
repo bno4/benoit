@@ -1,7 +1,50 @@
 .footer {
   background: black;
-  color: white;
+  color: $front-light-color;
   width: 100%;
   margin-top: auto;
-  height: 150px;
+  min-height: 150px;
+
+  &__ctn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    .credits {
+      margin-bottom: 10px;
+    }
+    .coordonnees {
+      .fa-solid {
+        color: white;
+        margin-right: 10px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    .social {
+      p {
+        margin-bottom: 10px;
+        color: whitesmoke;
+      }
+      .fa-brands {
+        transition: all 250ms ease-in-out;
+        color: white;
+        font-size: 1.5rem;
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+      @media screen and (max-width: 730px) {
+        display: flex;
+        align-items: start;
+        gap: 30px;
+      }
+    }
+    @media screen and (max-width: 730px) {
+      flex-direction: column;
+      text-align: left;
+      align-items: start;
+    }
+  }
 }

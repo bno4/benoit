@@ -46,7 +46,7 @@
         font-family: "exo", sans-serif;
         line-height: 100px;
         font-size: 6rem;
-        font-weight: 600;
+        font-weight: 500;
       }
       @media screen and (max-width: 750px) {
         h2 {
@@ -78,10 +78,13 @@
     }
 
     &__right {
-      font-family: "lato";
-      line-height: 30px;
-      font-size: 16px;
-      color: $front-light-color;
+      p {
+        font-family: "exo";
+        line-height: 30px;
+        font-size: 16px;
+        color: $title-color;
+        margin-bottom: 10px;
+      }
     }
   }
 }

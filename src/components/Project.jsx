@@ -5,13 +5,23 @@ const Project = ({ project }) => {
   return (
     <div className="card">
       <p className="date">{project.date}</p>
-      <Link to={`/projectpage/${project.id}`}>
+      <Link
+        to={`/projectpage/${project.id}`}
+        onClick={() => {
+          window.scroll(0, 0);
+        }}
+      >
         <img src={project.img} alt={project.title} />
       </Link>
 
       <div className="text-ctn">
         <h3>{project.title}</h3>
-        <Link to={`/projectpage/${project.id}`}>
+        <Link
+          to={`/projectpage/${project.id}`}
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
+        >
           <div className="infos-site">
             <ul className="languages">
               {project.languages &&
@@ -22,10 +32,8 @@ const Project = ({ project }) => {
             <p>{project.infos_short}</p>
             <div className="extern-links">
               <div className={"button-container"}>
-                <Link to={`/projectpage/${project.id}`} className="hover">
-                  <span className="button">En voir plus</span>
-                  <i className="fa-solid fa-circle-arrow-right"></i>
-                </Link>
+                <span className="button">En voir plus</span>
+                <i className="fa-solid fa-circle-arrow-right"></i>
               </div>
             </div>
           </div>
