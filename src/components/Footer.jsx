@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__ctn">
-        <div className="credits">© Benoît Duchemin - 2024</div>
+        <div className="credits">© Benoit Duchemin - 2024</div>
         <div className="coordonnees">
           <p>
             <i className="fa-solid fa-phone"></i> +33 (0)6 30 53 32 89
