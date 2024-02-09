@@ -26,19 +26,16 @@
     line-height: 25px;
 
     &__img {
-      background-image: url("../assets/img/photo-profil_NB_crop.png");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 300px;
-      width: 160px;
-      border-radius: 100px;
-      border: 1px solid black;
-      margin-right: 50px;
-      @media screen and (max-width: 750px) {
-        height: 230px;
-        width: 130px;
-        margin-right: 20px;
+      img {
+        width: 160px;
+        border-radius: 100px;
+        border: 1px solid black;
+        margin-right: 50px;
+        @media screen and (max-width: 750px) {
+          height: 230px;
+          width: 130px;
+          margin-right: 20px;
+        }
       }
     }
     &__txt {

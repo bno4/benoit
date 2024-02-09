@@ -7,7 +7,9 @@ const About = () => {
       <Navbar />
       <div className="about-ctn">
         <div className="about-ctn__head">
-          <div className="about-ctn__head__img"></div>
+          <div className="about-ctn__head__img">
+            <img src="./assets/img/photo-profil_NB_crop.png" alt="" />
+          </div>
           <div className="about-ctn__head__txt">
             <h2>à</h2>
             <h2>propos</h2>

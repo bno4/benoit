@@ -613,19 +613,14 @@ input.button:hover {
           align-items: center;
   line-height: 25px;
 }
-.about-ctn__head__img {
-  background-image: url("../assets/img/photo-profil_NB_crop.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
+.about-ctn__head__img img {
   width: 160px;
   border-radius: 100px;
   border: 1px solid black;
   margin-right: 50px;
 }
 @media screen and (max-width: 750px) {
-  .about-ctn__head__img {
+  .about-ctn__head__img img {
     height: 230px;
     width: 130px;
     margin-right: 20px;
