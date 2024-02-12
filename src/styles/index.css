@@ -393,7 +393,7 @@ input.button:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  min-height: 90vh;
+  min-height: 100vh;
   margin: 0 50px;
 }
 @media screen and (max-width: 730px) {
@@ -451,7 +451,7 @@ input.button:hover {
   max-width: 450px;
   height: 540px;
   border-radius: 7px;
-  padding: 30px;
+  padding: 20px;
 }
 .card:hover {
   -webkit-box-shadow: 0px 1px 80px 1px rgba(192, 192, 192, 0.3333333333);
@@ -469,7 +469,7 @@ input.button:hover {
   -o-object-position: center;
      object-position: center;
   margin: 0 auto;
-  min-height: 280px;
+  height: 260px;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
@@ -483,7 +483,7 @@ input.button:hover {
 
 .text-ctn h3 {
   font-family: "manrope", sans-serif;
-  margin: 20px 0;
+  margin: 20px 0 20px;
 }
 
 .infos-site {

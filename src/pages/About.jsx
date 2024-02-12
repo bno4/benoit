@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Navbar from "../components/Navbar";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -7,9 +8,17 @@ const About = () => {
       <Navbar />
       <div className="about-ctn">
         <div className="about-ctn__head">
-          <div className="about-ctn__head__img">
-            <img src="./assets/img/photo-profil_NB_crop.png" alt="" />
-          </div>
+          <motion.div
+            className="about-ctn__head__img"
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <img
+              src="./assets/img/photo-profil_NB_crop.png"
+              alt="Photo de profil"
+            />
+          </motion.div>
           <div className="about-ctn__head__txt">
             <h2>à</h2>
             <h2>propos</h2>

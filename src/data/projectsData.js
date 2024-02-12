@@ -7,7 +7,7 @@ export const projectsData = [
     infos_short:
       "Création de la partie front d'un site de location avec ReactJS et Sass",
     infos:
-      "Création de la partie front-end avec React et SASS pour le style. Aucune bibliothèque extérieure à React n'a été utilisée. Maquette Dektop et mobile © OpenClassrooms.",
+      "Création de la partie front-end avec React et SASS pour le style. Aucune bibliothèque extérieure à React n'a été utilisée. Maquettes desktop et mobile : © OpenClassrooms.",
     img: "./assets/img/kasa_home.webp",
     img_phone: "./assets/img/kasa_mobile_resultat.webp",
     img_mac: "./assets/img/kasa_mac_resultat.webp",
@@ -36,7 +36,7 @@ export const projectsData = [
     languages: ["Sass"],
     infos_short: "Site de restaurant pensé 'mobile first'. Sass pour le style.",
     infos:
-      "Site de restaurant 'mobile first', Création de l'html et du style avec Sass. Maquette desktop et mobile © OpenClassrooms",
+      "Site de restaurant 'mobile first', Création de l'html et du style avec Sass. Maquettes desktop et mobile : © OpenClassrooms",
     img: "./assets/img/ohmyfood_home.webp",
     img_phone: "./assets/img/ohmyfood_mobile_resultat.webp",
     img_mac: "./assets/img/ohmyfood_mac_resultat.webp",
@@ -50,7 +50,7 @@ export const projectsData = [
     languages: ["Node", "MongoDB", "Express"],
     infos_short: "Création d'une API Rest avec NodeJS Express et MongoDB",
     infos:
-      "Création du back d'une application de post et notation de sauces piquantes avec Node, Express et MongoDB. Partie Front © OpenClassrooms. * Site en cours de déploiement. Possibilité d'installer l'application en local depuis le repo Github.",
+      "Création du back d'une application de post et notation de sauces piquantes avec Node, Express et MongoDB. Partie Front : © OpenClassrooms. * Site en cours de déploiement. Possibilité d'installer l'application en local depuis le repo Github.",
     img: "./assets/img/hottakes_home.webp",
     img_phone: "./assets/img/piiquantes_mobile_resultat.webp",
     img_mac: "./assets/img/piiquantes_mac_resultat.webp",

@@ -7,7 +7,7 @@
   max-width: 450px;
   height: 540px;
   border-radius: 7px;
-  padding: 30px;
+  padding: 20px;
   &:hover {
     box-shadow: 0px 1px 80px 1px #c0c0c055;
     .fa-circle-arrow-right {
@@ -21,7 +21,7 @@
     object-fit: cover;
     object-position: center;
     margin: 0 auto;
-    min-height: 280px;
+    height: 260px;
     transition: all 250ms ease-in-out;
   }
   .date {
@@ -36,7 +36,7 @@
 .text-ctn {
   h3 {
     font-family: "manrope", sans-serif;
-    margin: 20px 0;
+    margin: 20px 0 20px;
   }
 }
 
