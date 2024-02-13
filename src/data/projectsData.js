@@ -18,15 +18,15 @@ export const projectsData = [
     id: "2",
     title: "Kanap",
     date: "Mar. 2023",
-    languages: ["JavaScript"],
+    languages: ["JavaScript", "Express", "NodeJS"],
     infos_short:
       "Création de la partie front d'un site e-commerce en JavaScript.",
     infos:
-      "Création de la partie front d'un site e-commerce en JavaScript. L'application permet d'ajouter un produit, sélectionner la couleur et le nombre de produits. Modification possible jusqu'à la confirmation de commande. * Site en cours de déploiement. Possibilité d'installer l'application en local depuis le repo Github.",
+      "Création de la partie front d'un site e-commerce en pure JavaScript. La partie back (Node/Express) est hébergée chez Railway. L'application permet d'ajouter un produit, sélectionner la couleur et le nombre de produits. Modification possible jusqu'à la confirmation de commande.",
     img: "./assets/img/kanap_home.webp",
     img_phone: "./assets/img/kanap_mobile_resultat.webp",
     img_mac: "./assets/img/kanap_mac_resultat.webp",
-    link: "",
+    link: "https://bno4.github.io/Kanaps/",
     git: "https://github.com/bno4/kanap",
   },
   {
