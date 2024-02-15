@@ -404,6 +404,7 @@ input.button:hover {
 
 .presentation p {
   font-family: "exo", sans-serif;
+  margin-left: 3px;
 }
 .presentation h1 {
   font-size: 6rem;
@@ -422,6 +423,7 @@ input.button:hover {
 .presentation h2 {
   font-size: 6rem;
   font-weight: 500;
+  color: #242424;
 }
 @media screen and (max-width: 990px) {
   .presentation h2 {
