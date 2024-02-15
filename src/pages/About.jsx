@@ -35,8 +35,8 @@ const About = () => {
               dans le <strong>développement web.</strong>
             </p>
             <p>
-              Je suivi une formation diplômante à plein temps dès décembre 2022,
-              et je suis aujourd'hui titulaire du titre RNCP développeur
+              J'ai suivi une formation diplômante à plein temps dès décembre
+              2022, et je suis aujourd'hui titulaire du titre RNCP développeur
               intégrateur web, orienté sur les technos du front-end :{" "}
               <strong>
                 React, Sass, JavaScript, et aussi back-end avec NodeJS, Express
