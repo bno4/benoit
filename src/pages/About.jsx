@@ -28,32 +28,33 @@ const About = () => {
           <div className="about-ctn__story__left"></div>
           <div className="about-ctn__story__right">
             <p>
-              Après quinze années très enrichissantes passées dans le secteur
+              Après plusieurs années très enrichissantes passées dans le secteur
               culturel, en qualité de chargé de diffusion, communication puis{" "}
               <strong>responsable de diffusion</strong> d’une structure de
               production, j’ai décidé d’opérer une reconversion professionnelle
-              dans le <strong>développement web.</strong>
+              dans un secteur auquel j'ai toujours été confronté et passionné,
+              le <strong>développement web.</strong>
             </p>
             <p>
               J'ai suivi une formation diplômante à plein temps dès décembre
-              2022, et je suis aujourd'hui titulaire du titre RNCP développeur
-              intégrateur web, orienté sur les technos du front-end :{" "}
-              <strong>
-                React, Sass, JavaScript, et aussi back-end avec NodeJS, Express
-                et MongoDB.
-              </strong>
+              2022 avec openClassrooms, et je suis aujourd'hui titulaire du
+              titre RNCP développeur intégrateur web, orienté sur les
+              technologies front-end : <strong>React, Sass, JavaScript </strong>
+              , et aussi back-end avec{" "}
+              <strong>NodeJS, Express et MongoDB.</strong>. Je continue de me
+              perfectionner sur ces langages et frameworks et m'ouvrent à
+              d'autres technologies comme Angular ou Redux.
             </p>
             <p>
               Mes expériences passées m’ont appris à gérer des projets de
-              développement d’activités artistiques de A à Z, établir les
-              stratégies de communication afférentes, ou participer à la
-              rédaction d’un cahier des charges pour la création du site web
-              d’un nouveau pôle de production et diffusion. Doté d’un grand sens
-              de l’autonomie, créatif, pugnace, curieux des nouvelles
-              technologies et aimant le travail en équipe, je cherche
-              aujourd’hui à intégrer en tant que développeur web front-end toute
-              entreprise (agence de communication ou agence de développement
-              web) évoluant dans la création et le maintien de sites web.
+              développement d’activités de A à Z, établir les stratégies de
+              communication afférentes, ou participer à la rédaction d’un cahier
+              des charges pour la création du site web d’un nouveau pôle de
+              production et diffusion. Doté d’un grand sens de l’autonomie,
+              créatif, pugnace, curieux des nouvelles technologies et aimant le
+              travail en équipe, je cherche aujourd’hui à intégrer en tant que
+              développeur web toute entreprise évoluant dans la création et le
+              maintien de solutions digitales pour elle-même ou ses clients.
             </p>
           </div>
         </div>
