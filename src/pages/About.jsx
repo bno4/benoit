@@ -32,8 +32,8 @@ const About = () => {
               culturel, en qualité de chargé de diffusion, communication puis{" "}
               <strong>responsable de diffusion</strong> d’une structure de
               production, j’ai décidé d’opérer une reconversion professionnelle
-              dans un secteur auquel j'ai toujours été confronté et passionné,
-              le <strong>développement web.</strong>
+              dans un secteur auquel j'ai toujours été confronté et qui m'a
+              toujours passionné : le <strong>développement web.</strong>
             </p>
             <p>
               J'ai suivi une formation diplômante à plein temps dès décembre
