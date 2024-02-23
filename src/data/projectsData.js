@@ -119,4 +119,18 @@ export const projectsData = [
     link: "https://bno4.github.io/resto/",
     git: "https://github.com/bno4/resto",
   },
+  {
+    id: "9",
+    title: "Booky",
+    date: "Jan. 2023",
+    languages: ["Css", "Html"],
+    infos_short: "Intégration de 3 maquettes Desktop, tablette, mobile",
+    infos:
+      "Intégration d'une maquette figma de la page d'accueil d'un site de réservation d'hôtel. 1er projet professionnalisant du parcours développeur web d'openClassrooms. Travail essentiellement sur le responsive design et les mediaqueries (desktop, tablette, mobile). ",
+    img: "./assets/img/booky_home.webp",
+    img_phone: "./assets/img/booky_mobile.webp",
+    img_mac: "./assets/img/booky_mac.webp",
+    link: "https://bno4.github.io/mission2/",
+    git: "https://github.com/bno4/mission2",
+  },
 ];
