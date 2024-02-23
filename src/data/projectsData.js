@@ -22,7 +22,7 @@ export const projectsData = [
     infos_short:
       "Création de la partie front d'un site e-commerce en JavaScript.",
     infos:
-      "Création de la partie front d'un site e-commerce en pure JavaScript. La partie back (Node/Express) est hébergée chez Railway. L'application permet d'ajouter un produit, sélectionner la couleur et le nombre de produits. Modification possible jusqu'à la confirmation de commande.",
+      "Création de la partie front d'un site e-commerce avec JavaScript. La partie back (Node/Express) est hébergée chez Railway. L'application permet d'ajouter un produit au localstorage, sélectionner la couleur et le nombre de produits. Modification possible dans le \"panier\". Renvoi d'une confirmation de commande avec ID aléatoire après validation (RegEx) et envoi du formulaire.",
     img: "./assets/img/kanap_home.webp",
     img_phone: "./assets/img/kanap_mobile_resultat.webp",
     img_mac: "./assets/img/kanap_mac_resultat.webp",
