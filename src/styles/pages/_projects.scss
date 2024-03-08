@@ -6,6 +6,17 @@
     margin-bottom: 50px;
     font-weight: 500;
   }
+  &__presentation {
+    font-style: italic;
+    max-width: 50%;
+    margin-bottom: 50px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.1rem;
+    @media screen and (max-width: 820px) {
+      max-width: 100%;
+    }
+  }
 }
 
 .cards-ctn {

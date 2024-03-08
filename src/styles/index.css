@@ -689,6 +689,19 @@ input.button:hover {
   margin-bottom: 50px;
   font-weight: 500;
 }
+.projects-ctn__presentation {
+  font-style: italic;
+  max-width: 50%;
+  margin-bottom: 50px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 820px) {
+  .projects-ctn__presentation {
+    max-width: 100%;
+  }
+}
 
 .cards-ctn {
   display: grid;
