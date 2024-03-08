@@ -9,16 +9,16 @@ const Projets = () => {
     <div>
       <Navbar />
       <div className="projects-ctn">
-        <h2>Projets web</h2>
+        <h2>Portfolio</h2>
         <p className="projects-ctn__presentation">
           Vous trouverez ici une sélection de sites et applications web que j'ai
-          développés, dont 6 projets professionnalisants du parcours
-          "Développeur web" d'OpenClassRooms. <br />
-          Ces missions ont toutes un cahier des charges précis (rétroplanning,
-          intégration de maquettes Figma, technos souhaitées, SEO, validateurs
-          W3C, etc.), et ont été validées en soutenances par des professionnels
-          du secteur. J'ai aussi ajouté 2 sites et 1 application React tirées de
-          la formation "Mastering front-end" de FromScratch.
+          développés, dont 6 missions professionnelles du parcours "Développeur
+          web" d'OpenClassRooms. <br />
+          Toutes ont un cahier des charges précis (rétroplanning, intégration de
+          maquettes Figma, technos souhaitées, SEO, validateurs W3C, etc.), et
+          ont été validées en soutenances par des professionnels du secteur.
+          J'ai aussi ajouté 2 sites et 1 application React développés lors de la
+          formation "Mastering front-end" de FromScratch.
         </p>
         <motion.ul
           className="cards-ctn"

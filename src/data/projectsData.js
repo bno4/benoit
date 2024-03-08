@@ -20,7 +20,7 @@ export const projectsData = [
     date: "Mar. 2023",
     languages: ["JavaScript", "Express", "NodeJS"],
     infos_short:
-      "Création de la partie front d'un site e-commerce en JavaScript.",
+      "Création d'un site e-commerce en JavaScript. De la sélection jusqu'à la confirmation de commande.",
     infos:
       "Projet tutoré n°5 du parcours développeur web d'OpenClassrooms. Création de la partie front d'un site e-commerce avec JavaScript. La partie back (Node/Express) est hébergée chez Railway. L'application permet d'ajouter un produit au localstorage, sélectionner la couleur et le nombre de produits. Modification possible dans le \"panier\". Renvoi d'une confirmation de commande avec ID aléatoire après validation (RegEx) et envoi du formulaire.",
     img: "./assets/img/kanap_home.webp",
@@ -34,7 +34,8 @@ export const projectsData = [
     title: "Hot Takes",
     date: "Avr. 2023",
     languages: ["Node", "MongoDB", "Express", "Angular"],
-    infos_short: "Création d'une API Rest avec NodeJS Express et MongoDB",
+    infos_short:
+      "Création d'une API Rest. Architecture MVC avec NodeJS Express et MongoDB",
     infos:
       "Projet tutoré n°6 du parcours développeur web d'OpenClassrooms. Création de l'API d'une application de post et de notation de sauces piquantes avec Node, Express et MongoDB. L'utilisateur peut s'inscrire, se loguer, poster/supprimer une sauce en uploadant une image. Il peut aussi liker ou disliker toutes les sauces affichées. Partie front avec Angular : © OpenClassrooms.",
     img: "./assets/img/hottakes_home.webp",
@@ -64,7 +65,8 @@ export const projectsData = [
     title: "OhMyFood",
     date: "Fév. 2023",
     languages: ["Sass"],
-    infos_short: "Site de restaurant pensé 'mobile first'. Sass pour le style.",
+    infos_short:
+      "Intégration 'mobile first' de maquettes Figma (mobile et desktop). Sass pour le style, approche BEM.",
     infos:
       "Projet tutoré n° 3 du parcours développeur web d'OpenClassrooms. Site de restaurant pensé 'mobile first', Création de l'html et du style avec Sass. Approche BEM. Travail essentiellement sur les mixins, keyframes et variables. Maquettes desktop et mobile : Figma",
     img: "./assets/img/ohmyfood_home.webp",
@@ -96,7 +98,7 @@ export const projectsData = [
     date: "Oct. 2023",
     languages: ["Sass", "Html"],
     infos_short:
-      "Intégration d'une maquette de site touristique avec Html/Sass",
+      "Intégration de maquettes mobile et desktop d'un site touristique avec Html/Sass",
     infos:
       "Intégration d'une maquette avec Sass, travail sur la navbar, et le responsive design desktop/mobile. Maquette © FromScratch (formation mastering front-end) ",
     img: "./assets/img/mountain_home.webp",
@@ -125,7 +127,8 @@ export const projectsData = [
     title: "Booky",
     date: "Jan. 2023",
     languages: ["Css", "Html"],
-    infos_short: "Intégration de 3 maquettes Desktop, tablette, mobile",
+    infos_short:
+      "Intégration en html/css de 3 maquettes Figma : Desktop, tablette et mobile",
     infos:
       "Projet tutoré n° 2 du parcours développeur web d'OpenClassrooms. Intégration d'une maquette figma de la page d'accueil d'un site de réservation d'hôtel. 1er projet professionnalisant du parcours développeur web d'openClassrooms. Travail essentiellement sur le responsive design et les mediaqueries (desktop, tablette, mobile). ",
     img: "./assets/img/booky_home.webp",

@@ -225,7 +225,7 @@ nav ul li a:hover {
   margin-right: 50px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 760px) {
   .icons {
     display: -webkit-box;
     display: -ms-flexbox;

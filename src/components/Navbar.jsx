@@ -60,7 +60,7 @@ const Navbar = () => {
                 window.scroll(0, 0);
               }}
             >
-              projets
+              portfolio
             </NavLink>
           </li>
 
