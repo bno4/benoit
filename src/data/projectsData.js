@@ -52,7 +52,7 @@ export const projectsData = [
     infos_short:
       "Fetch de l'API gratuite de films TMDB. Mini site de recherche et de classement de films.",
     infos:
-      'Fetch de l\'API gratuite de films TMDB. Mini appli React de recherche de films, possibilité de classer les films par top et flop, et de les ajouter à une page "favoris" ou de les supprimer. Pas de maquette, design libre. Tout le style a été créé avec Sass. Mission proposée dans le cadre de la  formation mastering front-end de FromScratch',
+      'Fetch de l\'API gratuite de films TMDB. Mini appli React de recherche de films, possibilité de classer les films par top et flop, et de les ajouter à des rubriques "à voir", "vus", "favoris" ou de les supprimer. Pas de maquette, design libre. Utilisation des hooks useContext, useState, useEffect. Tout le style a été créé avec Sass. Mission proposée dans le cadre de la  formation mastering front-end de FromScratch',
     img: "./assets/img/cinemap_home.webp",
     img_phone: "./assets/img/movies_mobile_resultat.webp",
     img_mac: "./assets/img/movies_mac_resultat.webp",
