@@ -9,7 +9,7 @@ const Projets = () => {
     <div>
       <Navbar />
       <div className="projects-ctn">
-        <h2>Portfolio</h2>
+        <h2>Réalisations</h2>
         <p className="projects-ctn__presentation">
           Vous trouverez ici une sélection de sites et applications web que j'ai
           développés, dont 6 missions professionnelles du parcours "Développeur
