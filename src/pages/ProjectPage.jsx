@@ -54,17 +54,16 @@ const ProjectPage = () => {
                   </span>
                 </a>
               </div>
-              <div className="button">
+
+              <div className="button-container">
                 <a
                   href={site.git}
                   target="_blank"
                   rel="noreferrer"
                   className="hover"
                 >
-                  <span className="button-container">
-                    <span>Code source </span>
-                    <i className="fa-brands fa-github"></i>
-                  </span>
+                  <span className="button">Code source </span>
+                  <i className="fa-brands fa-github"></i>
                 </a>
               </div>
             </div>
