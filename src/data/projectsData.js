@@ -1,8 +1,23 @@
 export const projectsData = [
   {
+    id: "4",
+    title: "CineMap",
+    date: "2024",
+    languages: ["React", "Sass"],
+    infos_short:
+      "Fetch de l'API gratuite de films TMDB. Mini site de recherche et de classement de films.",
+    infos:
+      'Fetch de l\'API gratuite de films TMDB. Mini appli React de recherche de films, possibilité de classer les films par top et flop, et de les ajouter à des rubriques "à voir", "vus", "favoris" ou de les supprimer. Pas de maquette, design libre. Utilisation des hooks useContext, useReducer, useState, useEffect. Tout le style a été créé avec Sass. Mission libre proposée dans le cadre de la fin de formation spécialisée React : mastering front-end de FromScratch',
+    img: "./assets/img/cinemap_home.webp",
+    img_phone: "./assets/img/movies_mobile_resultat.webp",
+    img_mac: "./assets/img/movies_mac_resultat.webp",
+    link: "https://bno4.github.io/movies/",
+    git: "https://github.com/bno4/movies",
+  },
+  {
     id: "1",
     title: "Kasa",
-    date: "Juin 2023",
+    date: "2023",
     languages: ["React", "Sass"],
     infos_short:
       "Création de la partie front d'un site de location avec ReactJS et Sass",
@@ -17,7 +32,7 @@ export const projectsData = [
   {
     id: "2",
     title: "Kanap",
-    date: "Mar. 2023",
+    date: "2023",
     languages: ["JavaScript", "Express", "NodeJS"],
     infos_short:
       "Création d'un site e-commerce en JavaScript. De la sélection jusqu'à la confirmation de commande.",
@@ -32,8 +47,8 @@ export const projectsData = [
   {
     id: "3",
     title: "Hot Takes",
-    date: "Avr. 2023",
-    languages: ["Node", "MongoDB", "Express", "Angular"],
+    date: "2023",
+    languages: ["NodeJS", "MongoDB", "Express", "Angular"],
     infos_short:
       "Création d'une API Rest. Architecture MVC avec NodeJS Express et MongoDB",
     infos:
@@ -44,26 +59,11 @@ export const projectsData = [
     link: "https://hottakes-online.vercel.app",
     git: "https://github.com/bno4/piiquante",
   },
-  {
-    id: "4",
-    title: "CineMap",
-    date: "Nov. 2023",
-    languages: ["React", "Sass"],
-    infos_short:
-      "Fetch de l'API gratuite de films TMDB. Mini site de recherche et de classement de films.",
-    infos:
-      'Fetch de l\'API gratuite de films TMDB. Mini appli React de recherche de films, possibilité de classer les films par top et flop, et de les ajouter à des rubriques "à voir", "vus", "favoris" ou de les supprimer. Pas de maquette, design libre. Utilisation des hooks useContext, useState, useEffect. Tout le style a été créé avec Sass. Mission proposée dans le cadre de la  formation mastering front-end de FromScratch',
-    img: "./assets/img/cinemap_home.webp",
-    img_phone: "./assets/img/movies_mobile_resultat.webp",
-    img_mac: "./assets/img/movies_mac_resultat.webp",
-    link: "https://bno4.github.io/movies/",
-    git: "https://github.com/bno4/movies",
-  },
 
   {
     id: "5",
     title: "OhMyFood",
-    date: "Fév. 2023",
+    date: "2023",
     languages: ["Sass"],
     infos_short:
       "Intégration 'mobile first' de maquettes Figma (mobile et desktop). Sass pour le style, approche BEM.",
@@ -79,7 +79,7 @@ export const projectsData = [
   {
     id: "6",
     title: "La Panthère",
-    date: "Fév. 2023",
+    date: "2023",
     languages: ["SEO", "CSS", "HTML"],
     infos_short:
       "Site d'agence web optimisé pour le référencement et l'accessibilité (SEO).",
@@ -95,7 +95,7 @@ export const projectsData = [
   {
     id: "7",
     title: "Mountain",
-    date: "Oct. 2023",
+    date: "2023",
     languages: ["Sass", "Html"],
     infos_short:
       "Intégration de maquettes mobile et desktop d'un site touristique avec Html/Sass",
@@ -110,7 +110,7 @@ export const projectsData = [
   {
     id: "8",
     title: "Resto",
-    date: "Sept. 2023",
+    date: "2023",
     languages: ["Sass", "Html"],
     infos_short:
       "Intégration d'une maquette de la page d'accueil d'un site de restaurant avec Html/Sass. ",
@@ -125,7 +125,7 @@ export const projectsData = [
   {
     id: "9",
     title: "Booky",
-    date: "Jan. 2023",
+    date: "2023",
     languages: ["Css", "Html"],
     infos_short:
       "Intégration en html/css de 3 maquettes Figma : Desktop, tablette et mobile",

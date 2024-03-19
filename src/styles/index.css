@@ -466,8 +466,8 @@ input.button:hover {
 }
 .card img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -o-object-position: center;
      object-position: center;
   margin: 0 auto;
