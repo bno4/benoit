@@ -15,7 +15,7 @@ const About = () => {
             transition={{ duration: 1 }}
           >
             <img
-              src="./assets/img/photo-profil_NB_crop.png"
+              src="./assets/img/photo-profil_NB_crop.webp"
               alt="Photo de profil"
             />
           </motion.div>
