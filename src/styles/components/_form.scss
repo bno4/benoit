@@ -33,6 +33,9 @@ textarea {
   resize: none;
   margin-bottom: 30px;
   padding: 10px 6px;
+  @media screen and (max-width: 600px) {
+    min-width: 260px;
+  }
 }
 
 input.button {
