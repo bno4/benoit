@@ -48,7 +48,7 @@ export const projectsData = [
     id: "3",
     title: "Hot Takes",
     date: "2023",
-    languages: ["NodeJS", "MongoDB", "Express", "Angular"],
+    languages: ["NodeJS", "MongoDB", "Express"],
     infos_short:
       "Création d'une API Rest. Architecture MVC avec NodeJS Express et MongoDB",
     infos:
