@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
-  let lastScrollPosition = 0;
+  // const [navbar, setNavbar] = useState(false);
+  // let lastScrollPosition = 0;
   const [open, setOpen] = useState(false);
   // const links = document.querySelectorAll("nav li");
 
   // Apparition/Disparition de la nav au scroll
-  const controlNavbar = () => {
-    if (window.scrollY > lastScrollPosition) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-    lastScrollPosition = window.scrollY;
-  };
+  // const controlNavbar = () => {
+  //   if (window.scrollY > lastScrollPosition) {
+  //     setNavbar(true);
+  //   } else {
+  //     setNavbar(false);
+  //   }
+  //   lastScrollPosition = window.scrollY;
+  // };
 
   // Management du burger menu à -730px de width
   const toggleClass = () => {
@@ -26,10 +26,10 @@ const Navbar = () => {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => controlNavbar());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => controlNavbar());
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   // useEffect(() => {
   //   links.forEach((link) => {
@@ -41,7 +41,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className={navbar ? "navbar hidden" : "navbar"}>
+      <nav className={"navbar"}>
         <li>
           <NavLink
             to="/"
